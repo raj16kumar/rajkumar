@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User should login the application",
+        "description": "",
+        "id": "adactin-hotelbooking;user-should-login-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3790100000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user opens the chrome browser",
+            "match": {
+              "location": "Adactin1StepDefinition.user_opens_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1390917900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the username in username field",
+            "match": {
+              "location": "Adactin1StepDefinition.user_enter_the_username_in_username_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 212932900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter the Password in password field",
+            "match": {
+              "location": "Adactin1StepDefinition.user_enter_the_Password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2647042900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click login button to login the application",
+            "match": {
+              "location": "Adactin1StepDefinition.user_click_login_button_to_login_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@TC-101"
+          }
+        ]
+      }
+    ],
+    "name": "Adactin HotelBooking",
+    "description": "",
+    "id": "adactin-hotelbooking",
+    "keyword": "Feature",
+    "uri": "C:/Users/Sadhana/eclipse-workspace/AdactinProject/Features/adactin1.feature"
+  }
+]
